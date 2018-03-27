@@ -1,0 +1,19 @@
+{
+  "name": "promise",
+  "version": "1.0.0",
+  "description": "几点细节： 1. then和catch总会返回一个全新的Promise对象, 这个新的Promise有自己的resolve, reject, callback队列等等 2. then的回调是异步执行, 实际中是推入micro队列，但是这里就简单地用了setTimeout实现异步",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maoyuyang/Promise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maoyuyang/Promise/issues"
+  },
+  "homepage": "https://github.com/maoyuyang/Promise#readme"
+}
